@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#181825">
+  <meta name="description" content="PupMail is a calm, privacy-friendly email client for Windows and Linux, built with Rust and GTK4.">
+  <title>PupMail — A happy place for your mail</title>
+  <link rel="icon" href="assets/pupmail-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="nav-wrap">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="PupMail home">
+        <img src="assets/pupmail-logo.svg" alt="" width="38" height="38">
+        <span>PupMail</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <a class="nav-download" href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Email that stays on your device</div>
+        <h1>A happy place<br>for your <span>mail.</span></h1>
+        <p class="hero-lede">One calm inbox for every account. PupMail brings Gmail, Yahoo, and custom IMAP together in a focused desktop app—with no ads, tracking, or cloud middleman.</p>
+        <div class="hero-actions" id="download">
+          <a class="download primary" href="https://cloud.redchanhq.com/s/2iAjmytgggmSfLs" target="_blank" rel="noopener">
+            <span class="platform-icon" aria-hidden="true">⊞</span>
+            <span><strong>Download for Windows</strong><small>x64 installer · v0.1.0</small></span>
+          </a>
+          <a class="download secondary" href="https://cloud.redchanhq.com/s/CcrAYNG4yDDGwYL" target="_blank" rel="noopener">
+            <span class="platform-icon" aria-hidden="true">◒</span>
+            <span><strong>Download for Linux</strong><small>Flatpak · x86_64</small></span>
+          </a>
+        </div>
+        <a class="source-link" href="https://github.com/AriCuteGirl/pupmail-site" target="_blank" rel="noopener">View source on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-visual reveal" aria-label="PupMail unified inbox preview">
+        <div class="glow"></div>
+        <div class="app-frame">
+          <div class="frame-bar"><i></i><i></i><i></i><span>PupMail</span></div>
+          <img src="assets/pupmail-inbox.png" alt="PupMail unified inbox showing account folders and a tidy message list">
+        </div>
+        <div class="floating-note note-one"><span>✓</span> No telemetry</div>
+        <div class="floating-note note-two"><span>●</span> 3 accounts, one inbox</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="PupMail highlights">
+      <div class="shell trust-grid">
+        <span>Built with Rust</span><i>✦</i><span>Native GTK4 interface</span><i>✦</i><span>Local-first cache</span><i>✦</i><span>Open source</span>
+      </div>
+    </section>
+
+    <section class="section shell" id="features">
+      <div class="section-heading reveal">
+        <div class="eyebrow">Less inbox noise</div>
+        <h2>Everything your mail needs.<br><span>Nothing it doesn’t.</span></h2>
+        <p>Fast daily email tools, wrapped in a comfortable desktop experience.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card large reveal"><div class="feature-icon">⌘</div><h3>One unified inbox</h3><p>See messages from every account together, or focus on one mailbox and folder at a time.</p><div class="mini-inboxes"><span class="lavender">P</span><span class="peach">G</span><span class="mint">Y</span><b>All inboxes</b></div></article>
+        <article class="feature-card reveal"><div class="feature-icon">⌕</div><h3>Search your cache</h3><p>Find senders, subjects, and downloaded message bodies—even while offline.</p></article>
+        <article class="feature-card reveal"><div class="feature-icon">↗</div><h3>Compose with confidence</h3><p>Reply, reply all, forward, attach files, and keep local drafts automatically.</p></article>
+        <article class="feature-card reveal"><div class="feature-icon">⌁</div><h3>Your providers</h3><p>Quick setup for Gmail and Yahoo, plus explicit IMAP and SMTP settings for other providers.</p></article>
+        <article class="feature-card reveal"><div class="feature-icon">◌</div><h3>Offline-friendly</h3><p>Read cached messages and write drafts without a connection. Sync when you are back online.</p></article>
+        <article class="feature-card reveal"><div class="feature-icon">◇</div><h3>Attachments included</h3><p>See attachment names at a glance, download safely, and add files to outgoing mail.</p></article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="screenshots">
+      <div class="shell">
+        <div class="section-heading reveal"><div class="eyebrow">A calmer desktop</div><h2>Made to feel <span>at home.</span></h2><p>Resizable panes, compact account cards, clear outlines, and a reader that gets out of your way.</p></div>
+        <div class="gallery" role="list">
+          <button class="shot active reveal" data-full="assets/pupmail-inbox.png" aria-label="Open unified inbox screenshot"><img src="assets/pupmail-inbox.png" alt="Unified inbox view"><span>Unified inbox</span></button>
+          <button class="shot reveal" data-full="assets/pupmail-reader.png" aria-label="Open message reader screenshot"><img src="assets/pupmail-reader.png" alt="Message reader view"><span>Focused reader</span></button>
+          <button class="shot reveal" data-full="assets/pupmail-compact.png" aria-label="Open compact layout screenshot"><img src="assets/pupmail-compact.png" alt="Compact responsive layout"><span>Compact layout</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell split" id="privacy">
+      <div class="privacy-copy reveal"><div class="eyebrow">Private by default</div><h2>Your inbox is not<br><span>our business.</span></h2><p>PupMail connects your computer directly to your email provider. There is no PupMail cloud account sitting in the middle.</p></div>
+      <div class="privacy-list reveal">
+        <div><span>✓</span><p><strong>No telemetry</strong><small>No usage tracking or analytics SDKs.</small></p></div>
+        <div><span>✓</span><p><strong>No cloud backend</strong><small>Your cached mail and drafts remain local.</small></p></div>
+        <div><span>✓</span><p><strong>No AI processing</strong><small>Your messages are not sent away for analysis.</small></p></div>
+        <div><span>✓</span><p><strong>No ads</strong><small>Your inbox stays yours—not an advertising surface.</small></p></div>
+      </div>
+    </section>
+
+    <section class="section install-section">
+      <div class="shell"><div class="section-heading reveal"><div class="eyebrow">Up and running</div><h2>Install in a <span>minute.</span></h2></div>
+        <div class="install-grid">
+          <article class="install-card reveal"><div class="install-top"><span>⊞</span><div><h3>Windows</h3><p>Windows 10 or newer · x64</p></div></div><ol><li>Download the PupMail installer.</li><li>Open the <code>.exe</code> and follow setup.</li><li>Launch PupMail from the Start Menu.</li></ol><a href="https://cloud.redchanhq.com/s/2iAjmytgggmSfLs" target="_blank" rel="noopener">Get Windows installer <span>↓</span></a></article>
+          <article class="install-card reveal"><div class="install-top"><span>◒</span><div><h3>Linux</h3><p>Flatpak · x86_64</p></div></div><ol><li>Download the <code>.flatpak</code> file.</li><li>Open it with your software installer.</li><li>Or run <code>flatpak install ./PupMail*.flatpak</code>.</li></ol><a href="https://cloud.redchanhq.com/s/CcrAYNG4yDDGwYL" target="_blank" rel="noopener">Get Linux Flatpak <span>↓</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell faq-section" id="faq">
+      <div class="section-heading reveal"><div class="eyebrow">Good questions</div><h2>FAQ</h2></div>
+      <div class="faq-list">
+        <details class="reveal"><summary>Which email accounts work with PupMail?<span>+</span></summary><p>Gmail and Yahoo have guided presets. You can also connect providers that offer encrypted IMAP and SMTP access using a password or app password.</p></details>
+        <details class="reveal"><summary>Does PupMail work offline?<span>+</span></summary><p>Downloaded messages remain available for reading, and drafts save locally. Sending and mailbox changes require a connection.</p></details>
+        <details class="reveal"><summary>Where are my passwords stored?<span>+</span></summary><p>Saved credentials use the system keyring: Secret Service on Linux and Credential Manager on Windows. Session-only credentials are also supported.</p></details>
+        <details class="reveal"><summary>Is PupMail free and open source?<span>+</span></summary><p>Yes. There are no paid plans, advertisements, or tracking. The source repository is linked below.</p></details>
+      </div>
+    </section>
+
+    <section class="final-cta shell reveal">
+      <img src="assets/pupmail-logo.svg" alt="" width="80" height="80">
+      <div><div class="eyebrow">Your good-mail club</div><h2>Give your inbox a calmer home.</h2></div>
+      <a href="#download">Download PupMail <span>↓</span></a>
+    </section>
+  </main>
+
+  <footer><div class="shell footer-inner"><a class="brand" href="#top"><img src="assets/pupmail-logo.svg" alt="" width="30" height="30"><span>PupMail</span></a><p>Built with Rust and GTK4.</p><a href="https://github.com/AriCuteGirl/pupmail-site" target="_blank" rel="noopener">Source code ↗</a></div></footer>
+
+  <dialog class="lightbox" aria-label="Screenshot preview"><button aria-label="Close screenshot">✕</button><img src="" alt="Expanded PupMail screenshot"></dialog>
+</body>
+</html>
