@@ -1,0 +1,5 @@
+NEW_COUNTS=https://cloud.redchanhq.com/s/yMWHJ5ZSGjjox9E:2,https://cloud.redchanhq.com/s/MoET8mMf6kBrmZX:2
+OLD_COUNTS=https://cloud.redchanhq.com/s/WebFAoFp356EE39:0,https://cloud.redchanhq.com/s/7EYNbTBM2t83iPn:0
+MODIFIED_RESULT=PASS
+HTTP 200 https://cloud.redchanhq.com/s/yMWHJ5ZSGjjox9E
+HTTP 200 https://cloud.redchanhq.com/s/MoET8mMf6kBrmZX

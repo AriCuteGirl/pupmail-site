@@ -1,0 +1,27 @@
+--- evidence/download-links-collapse-state/baseline/index.html	2026-09-20 00:58:03.488581551 +0200
++++ dist/index.html	2026-09-20 00:58:20.000092258 +0200
+@@ -35,11 +35,11 @@
+         <h1>A happy place<br>for your <span>mail.</span></h1>
+         <p class="hero-lede">One calm inbox for every account. PupMail brings Gmail, Yahoo, and custom IMAP together in a focused desktop app—with no ads, tracking, or cloud middleman.</p>
+         <div class="hero-actions" id="download">
+-          <a class="download primary" href="https://cloud.redchanhq.com/s/WebFAoFp356EE39" target="_blank" rel="noopener">
++          <a class="download primary" href="https://cloud.redchanhq.com/s/yMWHJ5ZSGjjox9E" target="_blank" rel="noopener">
+             <span class="platform-icon" aria-hidden="true">⊞</span>
+             <span><strong>Download for Windows</strong><small>x64 installer · v0.1.0</small></span>
+           </a>
+-          <a class="download secondary" href="https://cloud.redchanhq.com/s/7EYNbTBM2t83iPn" target="_blank" rel="noopener">
++          <a class="download secondary" href="https://cloud.redchanhq.com/s/MoET8mMf6kBrmZX" target="_blank" rel="noopener">
+             <span class="platform-icon" aria-hidden="true">◒</span>
+             <span><strong>Download for Linux</strong><small>Flatpak · x86_64</small></span>
+           </a>
+@@ -103,8 +103,8 @@
+     <section class="section install-section">
+       <div class="shell"><div class="section-heading reveal"><div class="eyebrow">Up and running</div><h2>Install in a <span>minute.</span></h2></div>
+         <div class="install-grid">
+-          <article class="install-card reveal"><div class="install-top"><span>⊞</span><div><h3>Windows</h3><p>Windows 10 or newer · x64</p></div></div><ol><li>Download the PupMail installer.</li><li>Open the <code>.exe</code> and follow setup.</li><li>Launch PupMail from the Start Menu.</li></ol><a href="https://cloud.redchanhq.com/s/WebFAoFp356EE39" target="_blank" rel="noopener">Get Windows installer <span>↓</span></a></article>
+-          <article class="install-card reveal"><div class="install-top"><span>◒</span><div><h3>Linux</h3><p>Flatpak · x86_64</p></div></div><ol><li>Download the <code>.flatpak</code> file.</li><li>Open it with your software installer.</li><li>Or run <code>flatpak install ./PupMail*.flatpak</code>.</li></ol><a href="https://cloud.redchanhq.com/s/7EYNbTBM2t83iPn" target="_blank" rel="noopener">Get Linux Flatpak <span>↓</span></a></article>
++          <article class="install-card reveal"><div class="install-top"><span>⊞</span><div><h3>Windows</h3><p>Windows 10 or newer · x64</p></div></div><ol><li>Download the PupMail installer.</li><li>Open the <code>.exe</code> and follow setup.</li><li>Launch PupMail from the Start Menu.</li></ol><a href="https://cloud.redchanhq.com/s/yMWHJ5ZSGjjox9E" target="_blank" rel="noopener">Get Windows installer <span>↓</span></a></article>
++          <article class="install-card reveal"><div class="install-top"><span>◒</span><div><h3>Linux</h3><p>Flatpak · x86_64</p></div></div><ol><li>Download the <code>.flatpak</code> file.</li><li>Open it with your software installer.</li><li>Or run <code>flatpak install ./PupMail*.flatpak</code>.</li></ol><a href="https://cloud.redchanhq.com/s/MoET8mMf6kBrmZX" target="_blank" rel="noopener">Get Linux Flatpak <span>↓</span></a></article>
+         </div>
+       </div>
+     </section>
