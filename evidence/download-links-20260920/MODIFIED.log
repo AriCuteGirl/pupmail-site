@@ -1,0 +1,5 @@
+NEW_LINKS=https://cloud.redchanhq.com/s/WebFAoFp356EE39:2,https://cloud.redchanhq.com/s/7EYNbTBM2t83iPn:2
+OLD_LINKS=https://cloud.redchanhq.com/s/2iAjmytgggmSfLs:0,https://cloud.redchanhq.com/s/CcrAYNG4yDDGwYL:0
+MODIFIED_RESULT=PASS
+HTTP 200 https://cloud.redchanhq.com/s/WebFAoFp356EE39
+HTTP 200 https://cloud.redchanhq.com/s/7EYNbTBM2t83iPn

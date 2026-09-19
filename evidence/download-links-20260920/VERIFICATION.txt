@@ -1,0 +1,26 @@
+Changed branch/field: dist/index.html Windows and Linux download href values.
+
+Artifacts:
+MODIFIED_FILE: /home/ari/Dokumenty/ChatGPT/New project/pupmail-site/evidence/download-links-20260920/MODIFIED_FILE
+DIFF_FILE: /home/ari/Dokumenty/ChatGPT/New project/pupmail-site/evidence/download-links-20260920/DIFF_FILE
+VERIFICATION.txt: /home/ari/Dokumenty/ChatGPT/New project/pupmail-site/evidence/download-links-20260920/VERIFICATION.txt
+ROLLBACK.sh: /home/ari/Dokumenty/ChatGPT/New project/pupmail-site/evidence/download-links-20260920/ROLLBACK.sh
+
+BASELINE
+Command: Python count/assertion over dist/index.html
+Input: old Windows and Linux Nextcloud URLs
+Literal output: BASELINE_LINKS=https://cloud.redchanhq.com/s/2iAjmytgggmSfLs:2,https://cloud.redchanhq.com/s/CcrAYNG4yDDGwYL:2; BASELINE_RESULT=PASS
+Exit status: 0
+
+MODIFIED
+Command: Python count/assertion over dist/index.html plus curl -L for both new URLs
+Input: Windows WebFAoFp356EE39 and Linux 7EYNbTBM2t83iPn
+Literal output/result: NEW_LINKS each occur 2 times; OLD_LINKS each occur 0 times; MODIFIED_RESULT=PASS; both URLs HTTP 200
+Exit status: 0
+
+ROLLBACK
+Command: evidence/download-links-20260920/ROLLBACK.sh evidence/download-links-20260920/rollback-copy && diff -q evidence/download-links-20260920/baseline/index.html evidence/download-links-20260920/rollback-copy/dist/index.html
+Input: separate copy of modified dist/index.html
+Literal output/result: Restored the previous PupMail download links; ROLLBACK_MATCH=YES
+Exit status: 0
+Restored behavior/status: rollback copy points to the previous Windows and Linux downloads; working site remains on the new URLs.
