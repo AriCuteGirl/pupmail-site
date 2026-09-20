@@ -1,0 +1,26 @@
+Changed branch/field: dist/index.html Windows and Linux download href values.
+
+Artifacts:
+MODIFIED_FILE: /home/ari/Dokumenty/ChatGPT/New project/pupmail-site/evidence/download-links-scroll-release/MODIFIED_FILE
+DIFF_FILE: /home/ari/Dokumenty/ChatGPT/New project/pupmail-site/evidence/download-links-scroll-release/DIFF_FILE
+VERIFICATION.txt: /home/ari/Dokumenty/ChatGPT/New project/pupmail-site/evidence/download-links-scroll-release/VERIFICATION.txt
+ROLLBACK.sh: /home/ari/Dokumenty/ChatGPT/New project/pupmail-site/evidence/download-links-scroll-release/ROLLBACK.sh
+
+BASELINE
+Command: Python URL count assertions over dist/index.html
+Input: yMWHJ5ZSGjjox9E and MoET8mMf6kBrmZX
+Literal output/result: each previous URL occurred 2 times; BASELINE_RESULT=PASS
+Exit status: 0
+
+MODIFIED
+Command: Python URL count assertions plus curl -L for both new URLs
+Input: DkdmXGDRbJ66Mdw and MrpLrQyGNAd77g5
+Literal output/result: each new URL occurs 2 times, previous URLs occur 0 times, MODIFIED_RESULT=PASS, both new URLs HTTP 200
+Exit status: 0
+
+ROLLBACK
+Command: evidence/download-links-scroll-release/ROLLBACK.sh evidence/download-links-scroll-release/rollback-copy && diff -q evidence/download-links-scroll-release/baseline/index.html evidence/download-links-scroll-release/rollback-copy/dist/index.html
+Input: separate modified copy of dist/index.html
+Literal output/result: Restored previous PupMail download links; ROLLBACK_MATCH=YES
+Exit status: 0
+Restored behavior/status: rollback copy points to the prior packages; working site remains on the latest packages.
